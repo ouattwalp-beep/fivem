@@ -1,6 +1,7 @@
 name: CI Build all products
 
 on:
+  workflow_dispatch:
   workflow_call:
 
 permissions:
